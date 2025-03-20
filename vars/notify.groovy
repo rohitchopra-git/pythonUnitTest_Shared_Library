@@ -1,6 +1,6 @@
 def call(String jobName, String buildNumber, String buildUrl) {
 
-    def SLACK_CHANNEL = '#jenkinsnotify'
+    def SLACK_CHANNEL = '#jenkins'
     def EMAIL_RECIPIENTS = 'rohit.chopra@mygurukulam.co'
 
     try {
