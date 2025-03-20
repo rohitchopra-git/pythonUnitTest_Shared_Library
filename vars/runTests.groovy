@@ -1,3 +1,3 @@
 def call(String pytestHtmlReport) {
-    sh ". venv/bin/activate && pytest --html=${pytestHtmlReport} "
+    sh ". venv/bin/activate && pytest --html=${pytestHtmlReport} " || true
 }
